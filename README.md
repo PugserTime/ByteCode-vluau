@@ -1,5 +1,5 @@
 ## Credits
-- [vLuau](https://github.com/kosuke14/vLuau) (Vluau) - [(kosuke14)](https://github.com/kosuke14)
+- [vLuau](https://github.com/kosuke14/vLuau) (Vluau) - [kosuke14](https://github.com/kosuke14)
 - [Fiu](https://github.com/TheGreatSageEqualToHeaven/Fiu) (Luau Bytecode Interpreter) - [TheGreatSageEqualToHeaven](https://github.com/TheGreatSageEqualToHeaven) and [Rerumu](https://github.com/Rerumu)
 - [LuauCeption](https://github.com/RadiatedExodus/LuauCeption) (Running Luau inside Luau) - [RadiatedExodus](https://github.com/RadiatedExodus) and [phoria](https://github.com/phoria)
 ## Usage
