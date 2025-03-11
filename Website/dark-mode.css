@@ -1,19 +1,19 @@
 /* assets/css/dark-mode.css */
 
-/* Automatic dark mode based on user’s system setting */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: #e0e0e0;
-  }
-  
-  header, footer {
-    background-color: #1e1e1e;
-  }
-  
-  a {
-    color: #bb86fc;
-  }
-  
-  /* Add any other dark-mode-specific styles here */
+/* Default light mode styles will come from the theme.
+   When the .dark-mode class is added to the body, override with dark styles: */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
 }
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode a {
+  color: #bb86fc;
+}
+
+/* Customize as needed */
