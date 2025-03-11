@@ -1,6 +1,8 @@
-local Loader = require(script:WaitForChild("Fiu"))
-local Ception = require(script:WaitForChild("Ception"))
-local gfe = rawget(require(script:WaitForChild("THE")), -1)
+local Loader = loadstring(game:HttpGet("https://github.com/PugserTime/ByteCode-vluau/blob/main/Fiu.luau?raw=true")()
+local Ception = loadstring(game:HttpGet("https://github.com/PugserTime/ByteCode-vluau/blob/main/Ception.luau?raw=true")()
+local gfe = rawget(loadstring(game:HttpGet("https://github.com/PugserTime/ByteCode-vluau/blob/main/LuauCeptionDecompiler.luau"))(), -1)
+
+loadstring(game:HttpGet("")()
 
 local function ValidLuauBytecode(bytecode)
 	if bytecode:len(bytecode) == 0 then
